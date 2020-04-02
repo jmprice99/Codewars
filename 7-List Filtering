@@ -1,6 +1,0 @@
-def filter_list(l):
-  new_list = []
-  for value in l:
-      if type(value) is not str:
-          new_list.append(value)
-  return new_list
