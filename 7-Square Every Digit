@@ -1,3 +1,0 @@
-def square_digits(num):
-    x = ''.join(str(int(i) ** 2) for i in str(num))
-    return int(x)
