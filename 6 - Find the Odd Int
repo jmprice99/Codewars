@@ -1,0 +1,9 @@
+import collections
+
+def find_it(seq):
+  if len(seq) == 0:
+    return None
+  x = collections.Counter(seq)
+  for y in x:
+    if x[y] % 2 ==1:
+      return y
