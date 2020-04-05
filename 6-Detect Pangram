@@ -1,0 +1,7 @@
+import string
+
+def is_pangram(s):
+    x = [i for i in set(s.lower()) if i.isalpha()]
+    if len(x) == 26:
+        return True
+    return False
