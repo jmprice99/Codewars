@@ -1,0 +1,8 @@
+from collections import Counter
+
+def count(string):
+    if not string:
+        return {}
+    else:
+        count = Counter(string)
+    return count
