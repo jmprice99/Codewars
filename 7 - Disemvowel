@@ -1,4 +1,0 @@
-def disemvowel(string):
-    vowels = ['A', 'a', 'E', 'e', 'I', 'i', 'O', 'o', 'U', 'u']
-    no_vowels = ''.join([i for i in string if i not in vowels])
-    return no_vowels
